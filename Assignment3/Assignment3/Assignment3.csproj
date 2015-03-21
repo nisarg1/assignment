@@ -93,6 +93,7 @@
     <Content Include="assets\images\tryAgainButton.png" />
     <Content Include="css\game.css" />
     <Content Include="index.html" />
+    <Content Include="packages.config" />
     <Content Include="Scripts\constants.js" />
     <Content Include="Scripts\game.js" />
     <Content Include="Scripts\lib\easeljs-0.8.0.min.js" />
@@ -111,7 +112,6 @@
     <Content Include="Scripts\states\gameover.js" />
     <Content Include="Scripts\states\gameplay.js" />
     <Content Include="Scripts\states\menu.js" />
-    <Content Include="packages.config" />
     <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -134,7 +134,6 @@
     <TypeScriptCompile Include="Scripts\states\menu.ts" />
     <TypeScriptCompile Include="Scripts\typings\createjs-lib\createjs-lib.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\easeljs\easeljs.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\preloadjs\preloadjs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\soundjs\soundjs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\stats\stats.d.ts" />
@@ -142,6 +141,9 @@
     <TypeScriptCompile Include="Scripts\typings\webaudioapi\waa.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\webrtc\MediaStream.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\webrtc\RTCPeerConnection.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\fonts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
